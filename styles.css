@@ -28,7 +28,6 @@ body {
     display: block;
 }
 
-
 .navbar ul {
     list-style: none;
     display: flex;
@@ -126,10 +125,11 @@ body {
     margin: 0 10px;
     color: #fff;
     text-decoration: none;
+    font-size: 1.5rem; /* حجم الأيقونة */
 }
 
 .footer .social-icons a:hover {
-    text-decoration: underline;
+    color: #ddd; /* تغيير اللون عند التمرير */
 }
 
 @media (max-width: 768px) {
@@ -159,18 +159,19 @@ body {
     .main-section h2 {
         font-size: 1.5rem;
     }
+
     .service h3 {
         font-size: 1.5rem;
     }
+
     .service p {
         font-size: 1.5rem;
     }
-    .main-section h2 {
-        font-size: 1.5rem;
-    }
+
     .footer p {
         font-size: 0.9rem;
     }
+
     .footer .social-icons a {
         font-size: 0.9rem;
     }
@@ -189,18 +190,23 @@ body {
         font-size: 0.7rem;
         padding: 8px 16px;
     }
+
     .service h3 {
         font-size: 1rem;
     }
+
     .service p {
         font-size: 0.8rem;
     }
+
     .main-section h2 {
         font-size: 1.2rem;
     }
+
     .footer p {
         font-size: 0.7rem;
     }
+
     .footer .social-icons a {
         font-size: 0.7rem;
     }
