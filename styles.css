@@ -75,10 +75,26 @@ body {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    animation: pulse 1.5s infinite;
 }
 
 .cta-button:hover {
     background: #555;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .main-section {
@@ -125,11 +141,10 @@ body {
     margin: 0 10px;
     color: #fff;
     text-decoration: none;
-    font-size: 1.5rem; /* حجم الأيقونة */
 }
 
 .footer .social-icons a:hover {
-    color: #ddd; /* تغيير اللون عند التمرير */
+    text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -165,6 +180,10 @@ body {
     }
 
     .service p {
+        font-size: 1.5rem;
+    }
+
+    .main-section h2 {
         font-size: 1.5rem;
     }
 
